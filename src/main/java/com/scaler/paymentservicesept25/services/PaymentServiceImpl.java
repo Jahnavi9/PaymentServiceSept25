@@ -18,6 +18,7 @@ public class PaymentServiceImpl implements PaymentService {
         //Make a call to Payment GW (Stripe/Razorpay/PhonePe...) to generate the payment link.
 
         //fetch order details from OrderService using orderId.
+        //Demo for For and Pull Request
         return paymentGateway.generatePaymentLink(orderId);
     }
 }
